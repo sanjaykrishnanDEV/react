@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+}
+body{
+  display: flex;
+  justify-content: center;align-items: center;
+}
+.calculator{
+  
+  border: 1px solid black; 
+  width: 20em;height: 25em;
+
+}
+form{
+  display: flex;
+  flex-direction: column;
+}
+input{
+  height: 2em;width: 50%;align-self: center;
+  margin: 1em;
+}
+
+.btn{
+  margin-top: 2em;
+  width: 50%;align-self: center;background-color: cornflowerblue;border: 0;
+  height: 2em;cursor: pointer;
+}
+.box{
+  margin-top: 50px;
+}
